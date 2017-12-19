@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html>
+<head>
+	<meta charset="utf-8" >
+	<title>Lesson</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="css/jquery.formstyler.css">
+	<link media="all" rel="stylesheet" href="css/style.css" type="text/css" >
+</head>
+<body>
+	<div class="header">
+		<div class="container">
+			<div class="logo">
+				<a href="index.html">
+					<img src="img/logo.png" alt="logo">
+				</a>
+			</div>
+			<div class="header_nav">
+				<ul>
+					<li><a href="#" target="blank">О компании</a></li>
+					<li><a href="prices.html" target="blank">Услуги</a></li>
+					<li><a href="#" target="blank">Галерея</a></li>
+					<li><a href="#" target="blank">Меню</a></li>
+					<li><a href="#" target="blank">Отзывы</a></li>
+					<li><a href="contact.html" target="blank">Контакты</a></li>
+					<li><a href="news.html" target="blank">Новости</a></li>
+				</ul>
+			</div>
+			<div class="soc_nav">
+				<ul>
+					<li><a href="#" class="vk-ic"></a></li>
+					<li><a href="#" class="tw-ic"></a></li>
+					<li><a href="#" class="goo-ic"></a></li>
+				</ul>
+			</div>
+		</div>	
+	</div>
+	<div class="main">
+		<div class="call-to-action">
+			<div class="call-to-action-text">
+				<h1>Wow Catering</h1>
+				<span class="small-caps">Ресторан выездного обслуживания</span>
+				<a href="#" class="btn _js-btn-open-modal small-caps">заказать</a>
+			</div>
+		</div>
+		<div class="about_us">
+			<div class="container">
+				<h3>Wow Catering</h3>
+				<p>Wow Catering Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor.</p>
+			</div>
+		</div>
+		<div class="service-wrap">
+			<div class="container">
+				<div class="row">
+					<div class="service-item">
+						<img src="img/service-img-1.jpg" alt="">
+						<div class="service-text">
+							<a href="#">
+								<span>Свадьба</span>
+							</a>
+						</div>
+					</div>
+					<div class="service-item">
+						<img src="img/service-img-2.jpg" alt="">
+						<div class="service-text">
+							<a href="#">
+								<span>Банкет</span>
+							</a>
+						</div>
+					</div>
+					<div class="service-item">
+						<img src="img/service-img-3.jpg" alt="">
+						<div class="service-text">
+							<a href="#">
+								<span>Выездное ресторанное обслуживание</span>
+							</a>
+						</div>
+					</div>
+					<div class="service-item">
+						<img src="img/service-img-4.jpg" alt="">
+						<div class="service-text">
+							<a href="#">
+								<span>Фуршет</span>
+							</a>
+						</div>
+					</div>
+					<div class="service-item">
+						<img src="img/service-img-5.jpg" alt="">
+						<div class="service-text">
+							<a href="#">
+								<span>Барбекю</span>
+							</a>
+						</div>
+					</div>
+					<div class="service-item">
+						<img src="img/service-img-6.jpg" alt="">
+						<div class="service-text">
+							<a href="#">
+								<span>Кофе-брейки</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<h5>Wow Catering</h5>
+		<div class="contact-footer">
+			<ul>
+				<li>ул. Гуданова 4\10</li>
+				<li>Харьков, 61024</li>
+				<li>Тел.: (097) 905-05-50</li>
+				<li>contacts@wowpizza.com.ua</li>
+			</ul>
+		</div>
+		<ul class="soc_nav">
+			<li><a href="#" class="vk-ic"></a></li>
+			<li><a href="#" class="tw-ic"></a></li>
+			<li><a href="#" class="goo-ic"></a></li>
+		</ul>
+	</div>
+	<!-- MODAL ORDER START -->
+	<div class="modal modal-order" id="modal-order">
+		
+		<div class="modal-header about_us">
+			<div class="modal-close">
+				<span></span>
+				<span></span>
+			</div>
+			<span>Форма заказа</span>
+			<h3>Wow Catering</h3>
+			<!-- <button><img src="img/x-ico.png" alt=""></button> -->
+		</div>
+		<div class="modal-body">
+			<form >
+				<div class="input-group w50">
+					<input type="text" class="form-control" name="userName" placeholder="Имя" autofocus>
+					<input type="text" class="form-control" name="phone" placeholder="Телефон">
+					<input type="text" class="form-control" name="email" placeholder="E-mail">
+				</div>
+				<div class="input-group w50">
+					<select name="choose-service">
+						<option value="">Выбрать услугу</option>
+						<option value="">Банкет</option>
+						<option value="">Свадьба</option>
+					</select>
+					<textarea class="form-control" name="coment" placeholder="Коментарий"></textarea>
+				</div>
+				<div class="input-group w100">
+					<input class="btn" type="submit" value="Отправить">
+				</div>
+			</form>
+		</div>
+	</div>
+	<!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  	<script src="js/jquery.bpopup.min.js"></script>
+  	<script src="js/jquery.formstyler.min.js"></script>
+	<!-- init --> 
+	<script src="js/init.js"></script>
+
+
+</body>
+</html>
